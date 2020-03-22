@@ -1,0 +1,33 @@
+{%load staticfiles%}
+
+h1,h3{
+  color: white;
+}
+#ayu{
+  padding-left: 90px;
+}
+#whole{
+
+  background-image: url('1.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+#log{
+  /* padding-left: 100px; */
+  margin-left: 130px;
+
+}
+.logs{
+
+  margin-left: 560px;
+  margin-top: 200px;
+}
+label{
+  color: white;
+}
+
+
+#hell{
+  font-size:150px%;
+  color:black;
+}

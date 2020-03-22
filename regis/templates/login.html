@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{%  block body_block %}
+<h1>WELCOME TO LOGIN PAGE</h1>
+
+<div class="logs">
+
+  <form class="" action="{% url 'basicapp:user_login' %}" method="POST">
+    {%csrf_token%}
+    <label class="bsdge badge-dark" for="username">USERNAME:</label>
+    <input type="text" name="username" placeholder="type ur username">
+    <p></p>
+    <label class="round badge-dark" for="password">PASSWORD:</label>
+    <input  type="password" name="password" placeholder="Enter your password...">
+    <p></p>
+
+    <input class="btn btn-dark" id="log" type="submit" name="" value="login">
+
+  </form>
+
+</div>
+{% endblock%}
